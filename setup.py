@@ -8,5 +8,5 @@ setup(name='wec_athena',
       author_email='mooneychristopher1@gmail.com',
       license='MIT',
       packages=['wec_athena','wec_athena.process','wec_athena.upload'],
-      package_dir={'': ''},
+      package_dir={'wec_athena': ''},
       zip_safe=False)
